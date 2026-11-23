@@ -1,0 +1,17 @@
+# Core RL stack
+gymnasium>=1.0.0
+ale-py>=0.10.0           
+stable-baselines3>=2.4.0
+
+# Deep learning / numerics
+torch>=2.0.0
+numpy>=1.24
+
+# Needed by AtariWrapper 
+opencv-python>=4.8
+
+# Needed by gymnasium RecordVideo to write .mp4 files
+moviepy>=1.0.3
+
+# Running the notebook
+ipykernel
